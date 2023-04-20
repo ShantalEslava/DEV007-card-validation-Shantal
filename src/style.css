@@ -1,0 +1,228 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: #80d5db;
+    margin:  0 auto;
+    height: 5%;
+    display: flex;
+    position: static;
+    height: 5rem;
+}
+
+.header_nombreempresa{
+    margin:1rem;
+    color: rgb(31, 51, 27);
+font-size: 2.5rem;
+}
+
+.header_menubuttonproductos{
+    border: none;
+    padding: 16px;
+    background-color: #01abb8;
+    color: rgb(44, 11, 11);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 1.5rem;
+    margin-left: 5rem ;
+
+    margin-top: 1em;
+    box-shadow: 0px 3px 3px 0px rgb(84, 153, 84);
+}
+.header_menudropproductos{
+    position: relative;
+    display: inline_block;
+}
+.header_menucontenidoproductos{
+    display: none;
+    position: absolute;
+    background-color: rgba(240, 179, 122, 0.918);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(116, 87, 33) ;
+}
+.header_menucontenidoproductos a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.header_menudropproductos:hover .header_menucontenidoproductos {display: block;}
+
+
+
+
+
+.header_menubuttonofertas{
+    border: none;
+    padding: 16px;
+    background-color: #01abb8;
+    color: rgb(44, 11, 11);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    box-shadow: 0px 3px 3px 0px rgb(84, 153, 84);
+}
+.header_menudropofertas{
+    position: relative;
+    display: inline_block;
+}
+.header_menucontenidoofertas{
+    display: none;
+    position: absolute;
+    background-color:  rgba(240, 179, 122, 0.918);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(116, 87, 33) ;
+}
+.header_menucontenidoofertas a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.header_menudropofertas:hover .header_menucontenidoofertas {display: block;}
+
+
+
+
+
+.header_menubuttonnews{
+    border: none;
+    padding: 16px;
+    background-color: #01abb8;
+    color: rgb(44, 11, 11);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    box-shadow: 0px 3px 3px 0px rgb(84, 153, 84);
+}
+.header_menudropnews{
+    position: relative;
+    display: inline_block;
+}
+.header_menucontenidonews{
+    display: none;
+    position: absolute;
+    background-color:  rgba(240, 179, 122, 0.918);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(116, 87, 33) ;
+}
+.header_menucontenidonews a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.header_menudropnews:hover .header_menucontenidonews {display: block;}
+
+
+
+
+
+.header_menubuttoncontactanos{
+    border: none;
+    padding: 16px;
+    background-color: #01abb8;
+    color: rgb(44, 11, 11);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    box-shadow: 0px 3px 3px 0px rgb(84, 153, 84);
+}
+.header_menudropcontactanos{
+    position: relative;
+    display: inline_block;
+}
+.header_menucontenidocontactanos{
+    display: none;
+    position: absolute;
+    background-color:  rgba(240, 179, 122, 0.918);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(116, 87, 33) ;
+}
+.header_menucontenidocontactanos a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.header_menudropcontactanos:hover .header_menucontenidocontactanos {display: block;}
+
+
+
+
+
+.header_menubuttonnosotros{
+    border: none;
+    padding: 16px;
+    background-color: #01abb8;
+    color: rgb(44, 11, 11);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    box-shadow: 0px 3px 3px 0px rgb(84, 153, 84);
+}
+.header_menudropnosotros{
+    position: relative;
+    display: inline_block;
+}
+.header_menucontenidonosotros{
+    display: none;
+    position: absolute;
+    background-color:  rgba(240, 179, 122, 0.918);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(116, 87, 33) ;
+}
+.header_menucontenidonosotros a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.header_menudropnosotros:hover .header_menucontenidonosotros {display: block;}
+
+
+
+
+main{ 
+    background-color:#f1eeee ;
+    min-height: 0 auto;
+    min-width: 0 auto;
+    color: rgb(46, 22, 22);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+
+}
+
+
+.main_pago{
+    background-color: rgba(240, 179, 122, 0.918);
+    width: 30%;
+    padding: 15px;
+    display: block;
+    float:left;
+    margin-left: 0%;
+    margin-top: 15rem;
+}
+
+.main_producto{
+    background-color: rgba(130, 235, 243, 0.185);
+    width: 60%;
+    padding: 15px;
+    display: flex;
+    float:right;
+
+}
+.caja{ 
+    display: flex;
+    float:inline-end;
+    flex-direction: row;}
+
+footer{
+    background-color:#80d5db;
+    margin:  0 auto;
+    height: 0;
+    margin-bottom: 0%;
+    display: flex;
+    position: static;
+    height: 5rem;
+}
