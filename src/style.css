@@ -10,6 +10,9 @@ header{
     height: 5rem;
 }
 
+.logo{
+    margin-left: 1rem;
+}
 .header_nombreempresa{
     margin:1rem;
     color: rgb(31, 51, 27);
@@ -179,8 +182,10 @@ font-size: 2.5rem;
 }
 .header_menudropnosotros:hover .header_menucontenidonosotros {display: block;}
 
-
-
+.buscador{
+    margin-top: 1.7rem;
+    display: flex;
+}
 
 main{ 
     background-color:#f1eeee ;
@@ -193,6 +198,14 @@ main{
 
 }
 
+.main_caja{
+    flex: wrap;
+}
+
+.main_enteropago{
+    flex: 0 0 100%;
+}
+
 
 .main_pago{
     background-color: rgba(240, 179, 122, 0.918);
@@ -201,7 +214,7 @@ main{
     display: block;
     float:left;
     margin-left: 0%;
-    margin-top: 15rem;
+
 }
 
 .main_producto{
