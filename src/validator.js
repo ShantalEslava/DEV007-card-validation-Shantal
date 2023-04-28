@@ -1,40 +1,44 @@
 
 const validator =  {
 isValid:function(numeritos){
-    if(numeritos.length > 13){
+    if(numeritos.length > 16){
         console.log("No aceptable")
-        return;
+        return "tarjeta de credito exedente de digitos";
     }
-    let mayores= 0
-    let mayor = 10
-    let menores= 0
-    let menor = 9
-    let impares = 0
-    let mayortotal= 0
-    let menortotal= 0
-    let impartotal= 0
-    let totaltotal= 0
+    
+    let total= 0
 
     let array = numeritos.split("").reverse();
-    console.log(array);
-    array.forEach((numero, posicion) => {
-    numero = parseInt (numero)
-        if(posicion % 2 == 0){
-            ((numero * 2) >= mayor) = mayores; 
-            mayores.forEach(function(a){mayortotal+a; 
-            });
 
-            ((numero *2) <= menor) = menores;
-            menores.forEach(function(b){menortotal+b;});
+    console.log(array);
+
+    array.forEach((num, posicion) => {
+    let numero = Number(num)
+
+        if(posicion % 2 == 0){
+            numero = numero *2
+            
+            if (numero >= 10) {
+                let a = numero % 10
+                let b = (numero - a)/10
+                numero = a + b
+                
+            }
 
         } 
-        else{
-            numero = impares
-            impares.forEach(function(c){impartotal+c;});
-        }
-        totaltotal= mayortotal+menortotal+impartotal
-        console.log(totaltotal)
+    
+        total = total + numero 
+        console.log(total)
+
     }); 
+    if (total % 10 % 10 == 0) {
+        return "Tarjeta valida"
+        
+console.log( total)
+    }else{
+        return "tarjeta invalida"
+
+    }
 } 
 }
     
