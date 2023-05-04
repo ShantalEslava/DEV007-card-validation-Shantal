@@ -1,11 +1,18 @@
 import validator from "./validator.js";
 
-    let numeritos = document.getElementById("numeritosid");
-    let boton = document.getElementById("boton");
-    let valid =document.getElementById("validator");
+const numeritos = document.getElementById("numeritosid"); // Esto me permitirá el uso en el maskify?
+const boton = document.getElementById("boton");
+const valid = document.getElementById("validator");
+
+boton.addEventListener("click", function () {
+  valid.value = validator.isValid(numeritos.value);
+  document.getElementById("input").innerHTML = maskify(numeritos.value);
+});
+
+function maskify(input) {
+    console.log(input)
+  return input.slice(0, -4).replace(/./g, "#") + input.slice(-4);
+}
 
 
-    boton.addEventListener("click",function(){
-        valid.value = validator.isValid(numeritos.value)
-    })
-
+console.log(maskify(numeritos.value))
