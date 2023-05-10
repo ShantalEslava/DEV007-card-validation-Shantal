@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+
+      <div class="logo">
+        <img src="https://www.pngplay.com/wp-content/uploads/12/Paw-PNG-HD-Free-File-Download.png" height="80px" width="65px">
+      </div>
+
+
+      <div>
+        <h1 class="header_nombreempresa">OnlyPets</h1>
+      </div>
+
+      
+    
+            <div class="header_menudropproductos">
+      
+              <button class="header_menubuttonproductos"> Productos</button>
+      
+              <ul class="header_menucontenidoproductos">
+                <a href="#"> Novedades</a>
+                <a href="#"> Temporada</a>
+                <a href="#"> Categorías</a>
+              </ul>
+            </div>
+      
+      
+            <div class="header_menudropofertas">
+      
+              <button class="header_menubuttonofertas"> Ofertas</button>
+      
+              <ul class="header_menucontenidoofertas">
+                <a href="#"> Oferta del Día</a>
+                <a href="#"> Liquidación</a>
+                <a href="#"> Cuponera</a>
+              </ul>
+            </div>      
+      
+            <div class="header_menudropnews">
+      
+              <button class="header_menubuttonnews"> Novedades</button>
+      
+              <ul class="header_menucontenidonews">
+                <a href="#"> PerriBlog</a>
+                <a href="#"> Muro Semanal</a>
+                <a href="#"> Temporada</a>
+              </ul>
+            </div>
+      
+      
+            <div class="header_menudropcontactanos">
+      
+              <button class="header_menubuttoncontactanos"> Contactanos</button>
+      
+              <ul class="header_menucontenidocontactanos">
+                <a href="#"> Preguntas Frecuentes</a>
+                <a href="#"> Ayuda</a>
+                <a href="#"> Envianos un mail</a>
+              </ul>
+            </div>
+      
+      
+            <div class="header_menudropnosotros">
+      
+              <button class="header_menubuttonnosotros"> Nosotros</button>
+      
+              <ul class="header_menucontenidonosotros">
+                <a href="#"> Mision</a>
+                <a href="#"> Vision</a>
+                <a href="#"> ¿Quienes somos?</a>
+              </ul>
+            </div>
+            <nav>
+              <input type="text" placeholder="Buscar" class="buscador">
+            </nav>
+
+    </header>
+
+    <main>
+<container class="main_caja">
+      <div class="main_enteropago">
+      <a href="#"><img src="https://www.petcircle.com.au/petcircle-assets/images/staticpageimage/auto-delivery-landing-page/shop-dog.png" alt="Imagen del Perro entregador" width="420px" height="170px"></a> <!--Aqui va la imagen de delivery€-->
+      </div>
+      <div class="main_pago">
+      <h2>Pago</h2>
+      <p>Indicaciónes de pago</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rem voluptates asperiores architecto nisi sit odit in qui illo est? Nostrum cumque aliquam molestiae distinctio omnis beatae autem fugiat laudantium.</p>
+      <br>
+        <!--Aqui van los cuadros que debemos rellenar, entre ellos el de la tarjeta-->
+      <p>Titular</p><input type="text"> 
+        <div> <!--Div de la tarjeta-->
+          <br>
+          <p>No.de Tarjeta</p>
+          <input 
+            type="text" 
+            maxlength="16"
+            class="conexion"
+            id="numeritosid"
+            placeholder="0000000000000000" 
+            > <!-- El placeholder es el que muestra el texto antes de poner algo-->
+        </div>
+
+      <br> 
+
+      <label>Fecha de Exp</label> <br>
+      <input type="month"> <!--alv las tarjetas solo deben llevar mes y año -->
+      <br><br>
+      <label>CVV</label> <br>
+      <input type="password, number"
+      maxlength="3">  <!--Tengo que arreglar que aqui solo entren numeros-->
+
+
+      <br><br>
+
+
+      <div> <!--Boton de validación-->
+        <input type="button" 
+        class="botonvalidador" 
+        value="validar" 
+        id="boton">
+
+      </div>
+
+      
+
+      <div><!--Aqui va el texto que indica si todo cool o si deberia revisar los datos-->
+
+        <label for="validator" class="textopagar">Validacion de tarjeta</label>  <!--No entiendo por que marca error-->
+
+        <textarea disabled="true" class="conexion" id="validator" rows="2"></textarea>
+        <textarea disabled="true" class="conexion" id="input" rows="2"></textarea>
+
+      </div>
+
+        </div>
+    <div class="main_producto">
+    <div class="main_producto_img">
+      <img src="https://m.media-amazon.com/images/I/71KHzH1vLJS._AC_SL1500_.jpg" alt="Picina para perros" width="500px" height="450px"> <!--Aqui va la imagen del producto-->
+    </div>
+    <div class="main_producto_descripcion">
+      <h2>Picina de exterior para Perros Medianos</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet expedita voluptatem quaerat. Ea nostrum mollitia cumque ipsam, facilis est similique exercitationem enim velit libero blanditiis quia, modi vel incidunt quasi.</p>
+    </div>
+  </div>
+
+</container>
+    </main>
+    <footer>
+      <p>
+        texto del footer 
+      </p>
+    </footer>
+<script type="module" src="index.js"></script>
+  </body>
+</html>
+
+<!-- 4556364607935616 -->
