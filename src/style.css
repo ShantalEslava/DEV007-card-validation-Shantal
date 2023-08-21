@@ -241,15 +241,17 @@ border-radius: 3%;
     background-color: #cfca45;
     border-radius: 2% 2% 2% 2%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: center;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 .main_producto{
-    background-color: #CFCA45;
+    background-color: #f3f1c5;
     width: 60%;
     padding: 15px;
     display: grid;
     position: center;
+    border-radius: 1%;
 
 }
 .main_producto_img{
@@ -278,6 +280,6 @@ footer{
     height: 0;
     margin-bottom: 0%;
     display: flex;
-    position: static;
+    justify-content: center;
     height: 5rem;
 }
