@@ -1,8 +1,9 @@
 body{
     margin: 0%;
+    background-color:#D5EE8C ;
 }
 header{
-    background-color: #80d5db;
+    background-color: #586B1F;
     margin:  0 auto;
     height: 5%;
     display: flex;
@@ -15,14 +16,14 @@ header{
 }
 .header_nombreempresa{
     margin:1rem;
-    color: rgb(31, 51, 27);
+    color: #D5EE8C;
 font-size: 2.5rem;
 }
 
 .header_menubuttonproductos{
     border: none;
     padding: 16px;
-    background-color: #01abb8;
+    background-color: #97B835;
     color: rgb(44, 11, 11);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 1.5rem;
@@ -30,6 +31,7 @@ font-size: 2.5rem;
 
     margin-top: 1em;
     box-shadow: 0px 3px 3px 0px rgb(84, 153, 84);
+    border-radius: 15%;
 }
 .header_menudropproductos{
     position: relative;
@@ -38,7 +40,8 @@ font-size: 2.5rem;
 .header_menucontenidoproductos{
     display: none;
     position: absolute;
-    background-color: rgba(240, 179, 122, 0.918);
+    background-color: #ce8eebf6;
+    border-radius: 10%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgb(116, 87, 33) ;
 }
@@ -57,12 +60,13 @@ font-size: 2.5rem;
 .header_menubuttonofertas{
     border: none;
     padding: 16px;
-    background-color: #01abb8;
+    background-color: #97B835;
     color: rgb(44, 11, 11);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 1.5rem;
     margin-top: 1rem;
     box-shadow: 0px 3px 3px 0px rgb(84, 153, 84);
+    border-radius: 15%;
 }
 .header_menudropofertas{
     position: relative;
@@ -71,7 +75,8 @@ font-size: 2.5rem;
 .header_menucontenidoofertas{
     display: none;
     position: absolute;
-    background-color:  rgba(240, 179, 122, 0.918);
+    background-color: #8f35b865;
+    border-radius: 10%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgb(116, 87, 33) ;
 }
@@ -90,12 +95,13 @@ font-size: 2.5rem;
 .header_menubuttonnews{
     border: none;
     padding: 16px;
-    background-color: #01abb8;
+    background-color: #97B835;
     color: rgb(44, 11, 11);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 1.5rem;
     margin-top: 1rem;
     box-shadow: 0px 3px 3px 0px rgb(84, 153, 84);
+    border-radius: 15%;
 }
 .header_menudropnews{
     position: relative;
@@ -104,9 +110,11 @@ font-size: 2.5rem;
 .header_menucontenidonews{
     display: none;
     position: absolute;
-    background-color:  rgba(240, 179, 122, 0.918);
+    background-color: #8f35b865;
+    border-radius: 10%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgb(116, 87, 33) ;
+    
 }
 .header_menucontenidonews a {
     color: black;
@@ -123,12 +131,13 @@ font-size: 2.5rem;
 .header_menubuttoncontactanos{
     border: none;
     padding: 16px;
-    background-color: #01abb8;
+    background-color: #97B835;
     color: rgb(44, 11, 11);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 1.5rem;
     margin-top: 1rem;
     box-shadow: 0px 3px 3px 0px rgb(84, 153, 84);
+    border-radius: 15%;
 }
 .header_menudropcontactanos{
     position: relative;
@@ -137,7 +146,8 @@ font-size: 2.5rem;
 .header_menucontenidocontactanos{
     display: none;
     position: absolute;
-    background-color:  rgba(240, 179, 122, 0.918);
+    background-color: #8f35b865;
+    border-radius: 10%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgb(116, 87, 33) ;
 }
@@ -156,12 +166,13 @@ font-size: 2.5rem;
 .header_menubuttonnosotros{
     border: none;
     padding: 16px;
-    background-color: #01abb8;
+    background-color: #97B835;
     color: rgb(44, 11, 11);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 1.5rem;
     margin-top: 1rem;
     box-shadow: 0px 3px 3px 0px rgb(84, 153, 84);
+    border-radius: 15%;
 }
 .header_menudropnosotros{
     position: relative;
@@ -170,7 +181,8 @@ font-size: 2.5rem;
 .header_menucontenidonosotros{
     display: none;
     position: absolute;
-    background-color:  rgba(240, 179, 122, 0.918);
+    background-color: #8f35b865;
+    border-radius: 10%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgb(116, 87, 33) ;
 }
@@ -188,14 +200,14 @@ font-size: 2.5rem;
 }
 
 main{ 
-    background-color:#f1eeee ;
+    background-color:#D5EE8C ;
     min-height: 0 auto;
     min-width: 0 auto;
     color: rgb(46, 22, 22);
     padding-left: 2rem;
     padding-right: 2rem;
     display: flex;
-
+    margin-bottom: 1rem;
 }
 
 .main_caja{
@@ -208,21 +220,50 @@ main{
 
 
 .main_pago{
-    background-color: rgba(240, 179, 122, 0.918);
+    background-color: #46773f;
     width: 30%;
     padding: 15px;
     display: block;
     float:left;
     margin-left: 0%;
-
+margin-right: 2%;
+border-radius: 3%;
+}
+.main_pagotexto{
+    background-color: #cfca45;
+    border-radius: 2% 2% 2% 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #46250b;
+    display: center;
+    padding: 2%;
+}
+.main_pagoinstrucciones{
+    background-color: #cfca45;
+    border-radius: 2% 2% 2% 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: center;
 }
 
 .main_producto{
-    background-color: rgba(130, 235, 243, 0.185);
+    background-color: #CFCA45;
     width: 60%;
     padding: 15px;
+    display: grid;
+    position: center;
+
+}
+.main_producto_img{
+    margin: bottom 0;
     display: flex;
-    float:right;
+    justify-content: center;
+
+}
+.main_imagenproducto{
+    width: 44.5rem;
+margin-top: 1.5rem;
+}
+.main_producto_descripcion{
+margin: 1.5rem;
 
 }
 .caja{ 
@@ -231,7 +272,8 @@ main{
     flex-direction: row;}
 
 footer{
-    background-color:#80d5db;
+    
+    background-color: #586B1F;
     margin:  0 auto;
     height: 0;
     margin-bottom: 0%;
