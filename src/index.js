@@ -1,3 +1,4 @@
+
 import validator from "./validator.js";
 
 const numeritos = document.getElementById("numeritosid"); 
@@ -15,3 +16,4 @@ function maskify(input) {
 
 
 console.log(maskify(numeritos.value))
+export default maskify;

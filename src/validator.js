@@ -1,3 +1,4 @@
+
 const validator = {
   isValid: function (numeritos) {
     if (numeritos.length > 16) {
@@ -34,9 +35,9 @@ const validator = {
    
     });
     if ((total % 10) % 10 === 0) {
-      return "Tarjeta valida";
+      return true;
     } else {
-      return "tarjeta invalida";
+      return false;
     }
   },
 };
