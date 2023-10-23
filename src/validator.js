@@ -1,4 +1,3 @@
-
 const validator = {
   isValid: function (numeritos) {
     if (numeritos.length > 16) {
